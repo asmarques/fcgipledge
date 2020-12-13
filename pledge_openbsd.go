@@ -7,5 +7,5 @@ import (
 )
 
 func pledge(promises string) error {
-	return unix.Pledge(promises, nil)
+	return unix.Pledge(promises, "")
 }
