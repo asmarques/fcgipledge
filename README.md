@@ -1,5 +1,7 @@
 # fcgipledge
-[![GoDoc](https://godoc.org/github.com/asmarques/fcgipledge?status.svg)](https://godoc.org/github.com/asmarques/fcgipledge)
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/asmarques/fcgipledge.svg)](https://pkg.go.dev/github.com/asmarques/fcgipledge)
+![Build Status](https://github.com/asmarques/fcgipledge/workflows/CI/badge.svg)
 
 Create a FastCGI server in Go restricted using OpenBSD's [`pledge`](https://man.openbsd.org/pledge.2).
 
